@@ -280,7 +280,7 @@ li
 
 .pack{
 	margin: 10px;
-	background-image : url(/images/2pack.png);
+	background-image : url(images/2pack.png);
 	display : inline-block;
 	width : 900px;
 	height: 183px;
