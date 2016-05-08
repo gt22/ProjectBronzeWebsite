@@ -1,0 +1,292 @@
+﻿.menuc
+{
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-right: 2px;
+	padding: 2px;
+	
+}
+
+.menuback
+{
+	display: inline-block;
+	background-color: rgba(170, 170, 170, 0.7);
+	padding-left : 2px;
+	padding-top : 9px;
+}
+
+.menu
+{
+	text-align: center;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+	display: none;
+	z-index: 10;
+}
+.menumod
+{
+}
+
+body
+{
+	margin: 0;
+	font-family: 'Roboto', "TREBUCHET MS", Times, sans-serif;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+button
+{
+border: none;
+cursor: pointer;
+}
+
+button:focus, button:hover
+{
+outline: none;
+border: none;
+}
+
+.menuimg
+{
+	margin: 0;
+	padding: 0;
+	width:200px;
+	height:200px;
+}
+
+.link{
+	
+	
+	
+}
+
+.menubutton 
+{
+	position: relative;
+    top: -50px;
+    left: calc(50% - 100px);
+    width: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+	background-color: inherit;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+
+}
+
+.menubutton:hover, .menubutton:focus 
+{
+background-color: #444;
+color: #a8d7a8;
+}
+
+#content
+{
+	background-image: url(images/back/Background1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 1200px;
+}
+
+#header
+{
+	position: fixed;
+	top:0;
+	background-color: #333;
+	width: 100%;
+	height: 100px;
+	z-index: 2;
+}
+
+#widgets
+{
+	display: inline-block;
+	float: right;
+	position: fixed;
+	top: 100px;
+	right: 0;
+	width: 400;
+}
+
+#hidewidgets
+{
+	background-color: inherit;
+	position: absolute;
+	right: 0;
+	top: 48px;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+}
+
+#hidewidgets:hover #hidewidgets:focus
+{
+	background-color: inherit;
+	color: white;
+}
+
+.text
+{
+	position: relative;
+    top: 100px;
+    left: 0;
+    width: auto;
+	display: inline-block;
+	max-width: 75%;
+}
+
+.background
+{
+	box-shadow: 0 0 6px black;
+	border-radius: 8px;
+	background-color: rgba(170, 170, 170, 0.7);
+}
+
+.text p 
+{
+	border: solid black;
+	border-width: 0 0 5px 0;
+	margin-top: 0;
+}
+
+.text p:last-child
+{
+	border-width: 0;
+}
+
+.copyright
+{
+	box-shadow: 0 0 6px black;
+	font-size: 25%;
+	border-radius: 8px;
+	margin: 50px;
+	background-color: rgba(170, 170, 170, 0.7);
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 2px;
+}
+
+.contacts
+{
+	margin: 0 auto;
+}
+
+.contacts tr td 
+{
+	border: 1px solid black;
+	margin: 0;
+}
+
+.contacts td
+{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.border
+{
+	border: 1px solid black;
+}
+
+.text h1
+{
+	font-size: 300%;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+
+.background
+{
+	margin-bottom: 10px;
+	padding: 10px 5px;
+	padding-top: 0;	
+}
+
+.background p:last-child
+{
+	margin: 0;
+}
+
+.text h2
+{
+	color: #155A1B;
+	font-size: 200%;
+	margin-top: 0;
+}
+
+.authors
+{
+	display: inline-block;
+	padding: 0;
+	border: 2px black solid;
+	margin: 5px;
+	margin-left: 2px;
+}
+
+.download
+{
+	border: 2px solid black;
+	margin-right: 5px;
+	float: left;
+	padding: 2px;
+	background-color: #333;
+}
+
+.download a
+{
+	color: black;
+}
+
+.download a:active a:link a:visited
+{
+	color: black;
+}
+
+.show
+{
+	display: inherit;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+li
+{
+	display: inherit;
+	
+}
+
+.pack{
+	margin: 10px;
+	background-image : url(/images/2pack.png);
+	display : inline-block;
+	width : 900px;
+	height: 183px;
+}
+.h{
+	
+	 position: absolute; 
+	  letter-spacing: -1px;  
+}
