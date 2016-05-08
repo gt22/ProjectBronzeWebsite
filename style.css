@@ -73,7 +73,7 @@ border: none;
 {
 	position: relative;
     top: -50px;
-    left: calc(50% - 100px);
+    left: calc(50% - 200px);
     width: auto;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
