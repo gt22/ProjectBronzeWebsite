@@ -3,8 +3,9 @@
 	change_image();
 	setupMenu();
 	setupHeader();
-	setupWidgets();
+	//setupWidgets();
 	setupCopyright();
+	setupLogo();
 })
 
 function setupWidgets()
@@ -89,6 +90,13 @@ function setupMenu()
 	</div>`)
 }
 
+function setupLogo()
+{
+	$('.logo').html(`<div class="logo">
+			<img src="images/logo.png">
+		</div>`)
+}
+
 function setupHeader()
 {
 	$('#header').html(`
@@ -117,7 +125,7 @@ function change_image()
     }
 
     var img="url(images/back/Background"+i+'.jpg)'
-    $("#content").css('backgroundImage', img);
+    $("html").css('backgroundImage', img);
     i++;
     setTimeout("change_image()",60000);
 }
