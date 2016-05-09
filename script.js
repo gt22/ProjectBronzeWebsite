@@ -98,9 +98,11 @@ function setupHeader()
 	<button class="menubutton" onclick="openmenu()">
 		Menu
 	</button>
-	<img src = "images/help.png" align="right">
-	<img src = "images/events.png" align="right">
-	<img src = "images/donate.png" align="right">
+	<div class="extra">
+	<img src = "images/donate.png" style="float: left; margin-right: -2px;">
+	<img src = "images/help.png">
+	<img src = "images/events.png">
+	</div>
 	<!--<button id="hidewidgets"onclick="hidewidgets()">
 		Hide widgets
 	</button>-->`)
