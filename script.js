@@ -53,7 +53,7 @@ function setupMenu()
 		<div class="menuback">
 			<div class="menuc">
 				<a class="link" href="multigaming.html">
-					<img class="menuimg" src="images/multigaming.jpg">
+					<img class="menuimg" src="images/multigaming.png">
 				</a>
 			</div>
 			<div class="menuc">
@@ -63,7 +63,7 @@ function setupMenu()
 			</div>
 			<div class="menuc">
 				<a class="link" href="file.html">
-					<img class="menuimg" src="images/main.png">
+					<img class="menuimg" src="images/files.png">
 				</a>
 			</div>
 		</div>
@@ -83,7 +83,8 @@ function setupMenu()
 			<div class="menuc">
 				<a class="link" href="modlists.html">
 				</a>
-					<img class="menuimg" src="images/mopacks.png">
+				<a class="link" href="wiki.html">
+					<img class="menuimg" src="images/wiki.png">
 				</a>
 			</div>
 		</div>
