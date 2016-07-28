@@ -1,0 +1,25 @@
+{
+modpacks:
+	[
+		{
+			"name" : "Circle",
+			"mcversion" : "1.7.10",
+			"version" : "1.0.9",
+			"forgeversion" : "1564",
+			"authors" : "Михаил Козырев, Алексеев Матвей, Николай Терещенко, Игорь Энгель",
+			"desc" : "Качевственный скайблок с великим и ужасным Грегом, более 350 квестов, измененные крафты, интеграция модов и много другое!",
+			"url" : "https://yadi.sk/d/X4aKEYgqqkGBp",
+			"img" : "circle.jpg"
+		},
+		{
+			"name" : "TerraFirmaGreg",
+			"mcversion" : "1.7.10",
+			"version" : "1.0.9",
+			"forgeversion" : "1556",
+			"authors" : "Михаил Козырев",
+			"desc" : "The most realistic modpack on the Earth",
+			"url" : "https://yadi.sk/d/6l4-gUnCqkqcm",
+			"img" : "terra.jpg"
+		}
+	]
+}
