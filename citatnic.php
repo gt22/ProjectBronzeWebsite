@@ -63,6 +63,19 @@
 	}
 	.frame{
 	}
+	select{
+		margin: 4px;
+		padding : 10px;
+		border: 0px solid green;
+		border-radius: 10px;
+		background:rgba(17,189,20,0.2); 
+		font-size: 16px;
+		font-family: "Courier New", Georgia, Serif;
+		font-weight: bold;
+	}
+	select:hover{
+		background:rgba(17,189,20,0.3); 
+	}
 </style>
 </head>
 <body>
@@ -83,6 +96,10 @@
 <td><textarea type="text" id="citata" name="citata"></textarea></td>
 </tr>
 <tr>
+<td class="frame_f"><label for="citata">Цитатник : </label></td>
+<td><select id="type" name="type"><option value="basic">Общий</option><option value="admin">Администраторский</option></select></td>
+</tr>
+<tr>
 <td class="frame_f"><label for="key">Код : </label></td>
 <td><input type="key" name="key" id="key"></td>
 </tr>
@@ -95,7 +112,7 @@
 </tr>
 </table>
 </form>
-<div><p style="border: 1px solid red; border-radius: 3px;"> Совет: если вы собрались добавить многострочную цитату или диалог, пропускайте строку в начале и в конце, будет лучше читать!</p></div>
+<div><p style="border: 1px solid red; border-radius: 3px;background: rgba(255,0,0,0.3);"> Совет: если вы собрались добавить многострочную цитату или диалог, пропускайте строку в начале и в конце, будет лучше читать!</p></div>
 </center>
 </body>
 </html>
