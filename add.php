@@ -21,7 +21,7 @@ if($addby != "" && $author != "" && $citata != "" && $key != "")
 	}
 	if($type == 'admin')
 	{
-		if($key == "ebd6d2f5d60ff9afaeda1a81fc53e2d0")
+		if($key == "0e4e946668cf2afc4299b462b812caca")
 		{
 			echo nl2br(" -Key valid\n");
 				addadmin($citata, $addby, $author);
