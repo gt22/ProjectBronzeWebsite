@@ -89,7 +89,7 @@ border: none;
 
 .menubutton:hover, .menubutton:focus 
 {
-background-color: #444;
+background-color: rgba(234,234,234,100);
 color: #a8d7a8;
 }
 
