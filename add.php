@@ -40,7 +40,6 @@ else
 
 function addbasic($cit, $ab, $auth)
 {
-		mysql_connect('localhost', 'root', 'root') or die(mysql_error());
 		$path = "citatnic.json";
 		$data = "[".$ab."] :"."[".$auth."] : '".$cit."'\n"; 
 		//file_put_contents($path, $data, FILE_APPEND);
@@ -69,3 +68,13 @@ function addadmin($cit, $ab, $auth)
 		}
 }
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Добавление цитаты</title>
+</head>
+<body>
+
+</body>
+</html>
