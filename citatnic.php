@@ -95,10 +95,10 @@
 <td class="frame_f"><label for="citata">Цитата : </label></td>
 <td><textarea type="text" id="citata" name="citata"></textarea></td>
 </tr>
-<tr>
+<!--<tr>
 <td class="frame_f"><label for="citata">Цитатник : </label></td>
 <td><select id="type" name="type"><option value="basic">Общий</option><option value="admin">Администраторский</option></select></td>
-</tr>
+</tr>-->
 <tr>
 <td class="frame_f"><label for="key">Код : </label></td>
 <td><input type="key" name="key" id="key"></td>
